@@ -40,6 +40,7 @@
             label8 = new Label();
             button1 = new Button();
             button2 = new Button();
+            panel2 = new Panel();
             panel1.SuspendLayout();
             SuspendLayout();
             // 
@@ -158,11 +159,20 @@
             button2.Text = "Prev";
             button2.UseVisualStyleBackColor = true;
             // 
+            // panel2
+            // 
+            panel2.BackColor = Color.White;
+            panel2.Location = new Point(651, 12);
+            panel2.Name = "panel2";
+            panel2.Size = new Size(684, 796);
+            panel2.TabIndex = 11;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1347, 820);
+            Controls.Add(panel2);
             Controls.Add(button2);
             Controls.Add(button1);
             Controls.Add(label8);
@@ -195,5 +205,6 @@
         private Label label8;
         private Button button1;
         private Button button2;
+        private Panel panel2;
     }
 }
